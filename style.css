@@ -1,0 +1,219 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'roboto';
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:  'Nova Round', cursive;
+}
+.wrap{
+    background:rgba(0,0,0,0.5) url("./images/Untitled\ design.jpg ") no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    overflow: hidden;
+    background-blend-mode: overlay;
+    width:100%;
+}
+.wave{
+    position: absolute;
+    width:100%;
+    bottom:-130px;
+    color:#fff;
+    opacity:1;
+}
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:25px 80px;
+    background:linear-gradient(to top,transparent,rgba(0,0,0,0.6))
+}
+header .logo{
+    
+    color:#fff;
+    float:left;
+    
+}
+header .menu{
+    float:right;
+    margin-top:5px;}
+ header ul li{
+    display: inline-block;
+ }   
+ header ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(221, 206, 74);
+    margin:0 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding:10px;
+    border-radius: 10px;
+
+ }
+ header ul li a:hover{
+    color:#fff;
+    background-color: grey;
+ }
+ .content{
+    max-width:55%;
+    padding:200px 80px 0;
+    color:#fff;
+}
+.content h1{
+    font-size: 48px;
+}
+.content p{
+    font-size:20px ;
+    padding:25px 0;
+    font-weight: 300;
+}
+.content .btn-grp{
+    margin-top:45px;
+}
+.content a{
+    display: inline-block;
+    padding:15px 45px;
+    text-decoration: none;
+    color:#fff;
+    border-radius:50px;
+}
+.content .btn-grp a:hover{
+    color:black;
+    background-color: #eed381;
+}
+.content a.color1{
+   background-color: #ffc107;
+}
+#services{
+    margin:34px;
+    display:flex;
+    text-align: center;
+    justify-items: center;
+    z-index: -1;
+
+ }   
+
+#services .box{
+    border:0 solid rgb(119, 129, 131);
+    padding:30px 30px;
+    margin: -100px 10px;
+    margin-left: 10px;
+    margin-right: 1px;
+    border-radius: 2px;
+    background-color: #f2f2f2;
+    bottom:5px;
+
+ }
+ .services h1{
+    color:black;
+    padding:30px 30px;
+  
+    font-size: 3rem;
+    margin:90px;
+
+}
+
+footer{
+   
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+  
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+    margin:100px 0 0 0;
+   
+}
+
+.footer-bottom{
+    background: rgb(0, 0, 0);
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color:#c59f2d;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: 0.4;
+    font-weight: 200;
+  
+}
+
+.hea-1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.8rem;
+    font-weight:300;
+}
+.about-us{
+    height: 100vh;
+    width: 100%;
+    padding: 90px 0;
+    background-color: #f2f2f2;
+  }
+  .pic{
+    height: auto;
+    width:  302px;
+    margin:90px;
+  }
+  .about{
+    width: 1130px;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .text{
+    width: 540px;
+  }
+  .text h3{
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  
+  }
+  .text h4{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    color:rgb(179, 179, 3);
+  }
+  .text p{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+  }
+  .data{
+    margin-top: 30px;
+  }
+  .learn-more{
+    font-size: 18px;
+    background: #dabd1e;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 6px;
+    transition: 0.5s;
+  }
+  .learn-more:hover{
+    background: rgb(3, 3, 1);
+    border: 1px solid #4070f4;
+  }
+   
